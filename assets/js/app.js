@@ -16,27 +16,3 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-// Scroll to section
-
-// let header = $('#header');
-// let headerH = header.innerHeight();
-// let scrollTop = $(window).scrollTop();
-
-// let navToggle = $('#navToggle');   
-// let headerMenu = $('#header__menu');
-
-// $('[data-scroll]').on('click', function(event) {
-//     event.preventDefault();
-
-//     let scrollEl = $(this).data('scroll');
-//     let scrollElPos = $(scrollEl).offset().top;
-
-//     navToggle.removeClass('active');
-//     nav.removeClass('active');
-//     $('body').removeClass('lock');
-
-//     $('html, body').animate({
-//         scrollTop: scrollElPos - headerH
-//     }, 500);
-// });
