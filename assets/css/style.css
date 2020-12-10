@@ -1288,7 +1288,8 @@ body {
         left: -100%;
         width: 50%;
         height: 100vh;
-        padding: 20px 15px;
+        padding-top: 50px;
+        overflow: auto;
         background-color: rgba(0, 0, 0, 0.8);
         transition: .6s all;
     }
@@ -2113,6 +2114,7 @@ body {
     justify-content: center;
     width: 300px;
 }
+
 .footer__links a {
     display: inline-block;
     margin: 0 auto;
@@ -2128,9 +2130,11 @@ body {
         display: flex;
         justify-content: center;
     }
+
     .footer__line {
         display: none;
     }
+
     .footer__nav {
         margin-bottom: 20px;
     }
